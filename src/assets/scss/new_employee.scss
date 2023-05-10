@@ -1,0 +1,77 @@
+.heading_color {
+  color: rgba(39, 144, 237, 0.657);
+  
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+.padding_employee {
+  padding-left: 15%;
+  padding-right: 15%;
+  @media (max-width: 768px) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  @media (min-width: 820px) and (max-width: 1180px) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+.padding_top_common_medium {
+  padding-top: 50px;
+}
+.form_text {
+  text-align: center;
+  color: rgb(85, 66, 66);
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+.inline_radio {
+  display: flex;
+
+  .radio {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.small_padding {
+  padding-top: 10px;
+}
+.extra_small_padding {
+  padding-top: 7px;
+}
+.padding_employee_card {
+  padding-left: 10%;
+  padding-right: 10%;
+  @media (max-width: 768px) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  @media (min-width: 820px) and (max-width: 1180px) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+.store_class{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}

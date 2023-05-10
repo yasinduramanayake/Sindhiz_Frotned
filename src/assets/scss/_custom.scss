@@ -1,0 +1,15 @@
+// Here you can add other styles
+
+.card-body .html-content {
+  overflow-x: scroll;
+}
+
+body.sidebar-show {
+  overflow: hidden
+}
+
+.ag-root-wrapper-body.ag-layout-normal {
+  flex: 1 1 auto;
+  height: 100%;
+  min-height: 0;
+}

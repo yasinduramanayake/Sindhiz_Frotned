@@ -1,0 +1,50 @@
+.form_header{
+  @media (max-width: 768px) {
+  font-size: 20px;
+  }
+}
+
+.add_claim_card {
+  padding-left: 15%;
+  padding-right: 15%;
+  @media (max-width: 768px) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+.claim_child_card {
+  padding-left: 10%;
+  padding-right: 10%;
+  @media (max-width: 768px) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.expense_report_dropdown {
+  padding-top: 8px;
+}
+.expenses_pagination {
+  float: left;
+  @media (min-width: 768px) and (max-width: 1024px) {
+    padding-top: 8px;
+  }
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    padding-top: 0px;
+  }
+  @media (min-width: 820px) and (max-width: 1180px) {
+    padding-top: 0px;
+  }
+}
+.expenses_filter {
+  float: right;
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 113%;
+  }
+}
+
+.expense_mobile_padding {
+  @media (max-width: 768px) {
+    padding-top: 8px;
+  }
+}
